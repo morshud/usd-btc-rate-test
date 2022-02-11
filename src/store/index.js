@@ -26,7 +26,7 @@ export default createStore({
     GET_XCHANGE({ commit }) {
       axios
         .get(
-          `https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=BTC&to_currency=USD&apikey=V6B5GWWDUDIVY9PZ`
+          `https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=BTC&to_currency=USD&apikey=${process.env.VUE_APP_API_KEY}`
         )
         .then((res) => {
           let info = res.data["Realtime Currency Exchange Rate"];
