@@ -1,0 +1,88 @@
+.banner-head {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 98.4%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.image-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.image-overlay img {
+  width: 1280px;
+  height: 361px;
+}
+.content-text {
+  position: absolute;
+  color: #fff;
+  z-index: 11;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+.content-text h1 {
+  font-weight: 700;
+  font-size: 26px;
+}
+.column-customize-1 {
+  padding: 15px 0px;
+  background-color: rgb(10, 20, 110);
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.column-customize-2 {
+  padding: 15px 0px;
+  background-color: rgb(10, 20, 110);
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+}
+.column-customize-3 {
+  padding: 15px 0px;
+  background-color: rgb(10, 20, 110);
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+}
+.column-customize-4 {
+  padding: 15px 0px;
+  background-color: rgb(10, 20, 110);
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.column-customize {
+  padding: 15px 0px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: -20px !important;
+  border-bottom: 1px solid #eee;
+  color: #000;
+}
+.mobile-card-header {
+  background-color: rgb(10, 20, 110);
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+}
